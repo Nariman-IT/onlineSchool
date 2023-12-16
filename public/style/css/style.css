@@ -1,0 +1,70 @@
+body{
+    background-image: url("/public/image/background-1.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    font-family: monospace;
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    font-size: 35px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    height: 50px;
+    border-bottom: red 1px solid;
+}
+
+.head:hover{
+    color: #00ff99;
+    cursor: pointer;
+    font-size: 38px;
+}
+
+.descriptionOfTheSite{
+    margin: 100px 20px 0px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+
+main{
+    margin: 100px 20px 0px 20px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 50px;
+    text-align: center;
+}
+
+.main{
+    width: 350px;
+    height: 250px;
+    border: red 3px solid;
+    border-radius: 5%;
+}
+
+
+
+
+.categoryPictures{
+    width: 350px;
+    height: 250px;
+}
+
+.description{
+    font-size: 25px;
+    color: white;
+}
+
+footer{
+    margin-top: 50px;
+    height: 100px;
+    width: inherit;
+    background-color: black;
+    border-top: red 1px solid;
+}

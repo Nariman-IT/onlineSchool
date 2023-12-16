@@ -1,0 +1,12 @@
+<div class="descriptionOfTheSite">Тут будет приветствие и знакомство с сайтом и вся водная информация о сайте пару строк туда сюда так вот так ну не совсем так</div>
+
+    <main>
+    
+        {% for item in resultCategories %}
+            <div class="main" id={{ item.id }}><img class="categoryPictures" src="../public/image/{{ item.image }}.jpg" alt="{{ item.name }}"></div>
+            <div class="description" id={{ item.id }}><h2>{{ item.name }}</h2> {{ item.description }} <a href="index.php/?controller=categorie&action=categoriesPage&id={{item.id}}">кнопка</a></div>
+            
+        {% endfor %}
+
+    </main>
+
